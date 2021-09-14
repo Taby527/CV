@@ -1,0 +1,98 @@
+body{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    
+}
+h1{
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb(57, 4, 4);
+    text-align: center;
+    font-style: italic;
+
+}
+
+h2{
+    font-size: 35px;
+    color: rgb(78, 6, 20);
+}
+
+h3{
+    font-size: 20px;
+    color: rgb(78, 6, 20);
+    font-weight: bold;
+}
+
+h4{
+    color: rgb(78, 6, 20);
+    font-size: 20px;
+}
+
+.hlavicka{
+    background-image: url(obrázky/moře.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 30px;
+
+}
+
+.omne{
+    padding: 50px 15%;
+    background-color: rgb(215, 248, 251);
+}
+.zajmy,
+.vzdelani{
+    background-color: rgb(215, 248, 251);  
+    padding: 50px 30%;
+}
+.fotka{
+    width: 15%;
+    border-radius: 50% 20% / 10% 40%;
+    margin: 0%;
+    float: left;
+    overflow: auto;
+    margin-right: 30px;
+}
+
+.praxe,
+.dovednosti{
+    background-color: rgb(226, 226, 248);
+    padding: 50px 30%;
+}
+.paticka{
+    background-color: rgb(226, 226, 248);
+    padding: 50px 30%;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #021339;
+
+}
+
+.menu li{
+    display: inline-block;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color:purple;
+}
+.menu a{
+    display: inline-block;
+    color: rgb(215, 248, 251);
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus
+.menu a:active{
+    background-color: #756158;
+}
