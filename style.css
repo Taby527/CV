@@ -40,31 +40,34 @@ h4{
 }
 
 .omne{
-    padding: 50px 15%;
+    padding: 100px 10%;
     background-color: rgb(215, 248, 251);
+    border: 10px inset rgb(131, 187, 181);
 }
 .zajmy,
 .vzdelani{
     background-color: rgb(215, 248, 251);  
-    padding: 50px 30%;
+    padding: 40px 27%;
+    border: 10px inset rgb(131, 187, 181);
 }
 .fotka{
     width: 15%;
     border-radius: 50% 20% / 10% 40%;
-    margin: 0%;
     float: left;
     overflow: auto;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .praxe,
 .dovednosti{
     background-color: rgb(226, 226, 248);
-    padding: 50px 30%;
+    padding: 40px 27%;
+    border: 10px inset rgb(137, 161, 202);
 }
 .paticka{
     background-color: rgb(226, 226, 248);
-    padding: 50px 30%;
+    padding: 40px 27%;
+    border: 10px inset rgb(137, 161, 202);
 }
 
 .menu{
